@@ -37,13 +37,19 @@ box-sizing: border-box;
   border-radius: 0px 0px 5px 5px;
  
 }
+.title{
 
+color: white;
+font-size: 20px;
+
+
+}
 
 #display{
-height: 80px;
+height: 90px;
 width: 100%;
 background-color:rgb(7, 68, 79);
-border-radius: 10px;
+border-radius: 10px 0px 0px 0px;
 }
 
 
