@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+
+
+    <div class="container">
+  <div class="calculator">
+  <form action= "" id="myForm">
+            
+  <input type="text" name="result" 
+            id ="display" disabled>
+   
+        </form>
+       
+
+        <div class="buttons">
+          <table>
+            <tr>
+              <td class="first"  onclick="display.value=''" id="ac">AC</td>
+              <td  class="second"  id="ce" onclick="backspc()">CE</td>
+              <td class="second" id="divide">/</td>
+            </tr>
+            <tr>
+              <td class="first" id="seven">7</td>
+              <td class="first" id="eight">8</td>
+              <td class="first" id="nine">9</td>
+              <td class="second" id="plus">+</td>
+             
+            </tr>
+            <tr>
+              <td class="first" id="four">4</td>
+              <td class="first" id="five">5</td>
+              <td class="first" id="six">6</td>
+              <td class="second" id="double">x</td>
+            </tr>
+            <tr>
+              <td class="first" id="one">1</td>
+              <td class="first" id="two">2</td>
+              <td class="first" id="three">3</td>
+              <td class="second" id="minus">-</td>
+            </tr>
+            <tr>
+              <td class="first" id="zero">0</td>
+              <td class="first" id="ap">.</td>
+              <td class="second" id="sum">=</td>
+             
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
