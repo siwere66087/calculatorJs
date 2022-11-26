@@ -1,8 +1,8 @@
-var form=document.getElementById ("display");
-let btnF = document.querySelectorAll('.first');
-let btnS = document.querySelectorAll('.second');
 
 
+
+
+var form=document.getElementById ("for");
 var one = document.getElementById ("one");
 var two =  document.getElementById ("two");
 var three =  document.getElementById ("three");
@@ -18,7 +18,7 @@ var sum = document.getElementById("minus");
 var ap =  document.getElementById ("ap");
 var doub =  document.getElementById ("double");
 var dd =  document.getElementById ("divide");
-var calc = document.getElementById("sum");
+var calc = document.getElementById("got");
 
 calc.onclick = myFunction;
 
@@ -81,129 +81,12 @@ plus.onclick = ""
 	 ap.onclick = ""
 	 
  }
+
+
+
+
+
  
- function backspc() {
-    display.value = display.value.substr(0, display.value.length - 1);
-}
-
-function myFunction1(){
-form.value +="1";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-
-}
-
-function myFunction2(){
-form.value +="2";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-
-
-function myFunction3(){
-form.value +="3";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-function myFunction4(){
-form.value +="4";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-function myFunction5(){
-form.value +="5";
-
-plus.onclick = myPlus;
-
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-function myFunction6(){
-form.value +="6";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-function myFunction7(){
-form.value +="7";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-
-function myFunction8(){
-form.value +="8";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-function myFunction9(){
-form.value +="9";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
-
-function myFunction0(){
-form.value +="0";
-plus.onclick = myPlus;
-doub.onclick =myDouble;
-
-sum.onclick= myFunction10;
-
-dd.onclick = myFunctiondd;
-
-ap.onclick =myAp;
-}
 
 
 
@@ -211,16 +94,20 @@ ap.onclick =myAp;
 
 
 
- function myFunction (){
- var bec = eval(form.value);
- form.value = bec;
- plus.onclick = myPlus;
- doub.onclick =myDouble;
 
-sum.onclick= myFunction10;
 
-dd.onclick = myFunctiondd;
 
-ap.onclick =myAp;
 
- }
+
+
+
+
+
+
+
+
+
+
+
+
+
